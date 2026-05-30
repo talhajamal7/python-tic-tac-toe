@@ -1,15 +1,4 @@
-# Write code for tic tac toe
-# 1. Create a 3x3 board
-# 2. Take input from player 1 and player 2
-# 3. Check if the input is valid
-# 4. Check if the game is over
-# 5. Check if the game is a draw
-# 6. Check if the game is won
-# 7. Print the board after each move
-# 8. Print the winner
-# 9. Print the draw message
-# 10. Print the invalid input message
-# 11. Print the game over message
+
 
 def greet():
     # greet the user 
