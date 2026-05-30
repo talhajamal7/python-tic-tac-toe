@@ -1,7 +1,7 @@
 
 
 def greet():
-    # greet the user 
+
     print("Good morning! Welcome to Tic Tac Toe!")
     print("Player 1 is X")
     print("Player 2 is O")
@@ -15,7 +15,6 @@ def print_board(board):
         print("-" * 5)
 
 def check_winner(board, player):
-    # Check rows, columns and diagonals
     for row in board:
         if all([cell == player for cell in row]):
             return True
